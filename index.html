@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js" defer></script>
 </head>
 <body>
+    <div class="background"></div>
     <div id="container" class="grid-container">
-        
+        <div id="left-panel" class="grid-item">
+            <h2 class="category-title">Category</h2>
+            <ul class="category-list">
+                <li id="today">Today</li>
+            </ul>
+        </div>
+        <div id="right-panel" class="grid-item">
+            <h2 class="tasks-title">Tasks</h2>
+            <ul class="tasks-list">
+                <li class="task"> Task 02 <div class="editable"><span class="edit">Edit</span><span class="delete">Del</span></div></li>
+                <li class="task"> Task 03 <div class="editable"><span class="edit">Edit</span><span class="delete">Del</span></div></li>
+                <li class="task"> Task 01 <div class="editable"><span class="edit">Edit</span><span class="delete">Del</span></div></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
