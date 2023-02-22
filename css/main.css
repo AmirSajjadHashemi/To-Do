@@ -46,6 +46,7 @@ html {
 }
 .category-title, .tasks-title {
     color: var(--headers);
+	margin-bottom: 1rem;
 }
 ul {
 	list-style: none;
@@ -55,5 +56,24 @@ ul.tasks-list li.task {
 	padding: 1rem;
 }
 li.task div {
-    float: right;
+    display: grid;
+	grid-template-columns: auto auto;
+}
+li.task {
+	display: grid;
+	grid-template-columns: 5% 85% 10%;
+}
+li.task span {
+	color: #f05154;
+}
+.task h4 {
+	overflow-x: hidden;
+}
+.category-list li {
+	display: grid;
+	grid-template-columns: 10% 90%;
+}
+#today span {
+	color: orange;
+	text-shadow: 0 0 10px yellow;
 }
