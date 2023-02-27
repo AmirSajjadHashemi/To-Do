@@ -55,6 +55,9 @@ ul.tasks-list li.task {
 	border-bottom: 1px solid var(--list-itmes-border);
 	padding: 1rem;
 }
+ul.tasks-list li.task:nth-child(1) {
+	border-top: 1px solid var(--list-itmes-border);
+}
 li.task div {
     display: grid;
 	grid-template-columns: auto auto;
@@ -64,7 +67,7 @@ li.task {
 	grid-template-columns: 5% 85% 10%;
 }
 li.task span {
-	color: #f05154;
+	color: var(--gr1);
 }
 .task h4 {
 	overflow-x: hidden;
@@ -76,4 +79,11 @@ li.task span {
 #today span {
 	color: orange;
 	text-shadow: 0 0 10px yellow;
+}
+#add-new {
+	display: grid;
+	grid-template-columns: 2rem 7rem;
+	line-height: 2rem;
+	opacity: 0.5;
+	cursor: pointer;
 }
