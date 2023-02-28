@@ -114,18 +114,22 @@ li.task span {
 	border-radius: 5px;
 	width: 100%;
 }
-#add-new-field span {
-	position: absolute;
-	right: 0;
+
+#add-new-field div {
 	font-size: 2rem;
 	color: var(--gr1);
 	line-height: 2.5rem;
-  }
-  #add-new-field {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#add-new-field {
 	position: relative;
 	z-index: 2;
 	top: 0;
-  }
-  .hide {
+}
+
+.hide {
 	display: none !important
-  }
+}
