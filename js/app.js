@@ -25,7 +25,8 @@ function addToLocalStorage (input_Array) {
 }
 
 function getFromLocalStorage () {
-    return JSON.parse(localStorage.getItem ('to-do'))
+    ToDoArray = JSON.parse(localStorage.getItem ('to-do'))
+    return ToDoArray
 }
 
 function addToDoHandler () {
